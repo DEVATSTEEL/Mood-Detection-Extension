@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+#sentiment-display {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px; /* Reduced padding for a more rectangular shape */
+    max-width: 500px;   /* Controls the width of the pop-up */
+    min-width: 350px;   /* Ensures the pop-up isn't too narrow */
+    height: auto;       /* Allow the height to adjust to content size */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures buttons and content are spaced out */
+}
+
+#sentiment-content {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    min-height: 50px; /* Ensures there's always a minimum height */
+    white-space: pre-wrap; /* Makes sure line breaks in text are preserved */
+    word-wrap: break-word; /* Ensures long words are wrapped appropriately */
+}
+
+button {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px; /* Adds space between buttons */
+}
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+#saved-sentiments {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
